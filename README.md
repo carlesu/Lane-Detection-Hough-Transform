@@ -22,17 +22,17 @@ Images were captured with my smartphone Xiaomi Mi A2 carried inside the vehichle
 Since the camera will be fixed in the same spot inside the vehicle a ROI will be extracted from the raw image on each frame. In this project ROI coordinates are calibrated once and used for the whole video, a good way of finding ROI coordinates could be finding vanishing point coordinates and calculating ROI coordinates after that.
 
 ##### Raw image
-<img src="/Video_Demos/img/raw_image.JPG" width="300">
+<img src="/Video_Demos/img/raw_image.JPG" width="400">
 
 ##### ROI selection
-<img src="/Video_Demos/img/roi_selection.JPG" width="300">
+<img src="/Video_Demos/img/roi_selection.JPG" width="400">
 
 ### 2. Image  smoothing (Gaussian Filter)
 A Gaussian filter is done to the image in order to reduce noise and smooth the edges.
 
 Gaussian filtering averages the pixels arround each pixel of the image, the pixels averaged are determined by the kernel (matrix) size.
-<img src="/Video_Demos/img/gauss_filt.JPG" width="200">
+<img src="/Video_Demos/img/gauss_filt.jpg" width="200">
 
-Because we are using a Gaussian distribution the kernel size will be 6*Std sdsadsad.
-dads
+Because we are using a Gaussian distribution the kernel size will be 6*Std in order to fit the Gaussian curve to our kernel.
+<img src="/Video_Demos/img/std_dev.jpg" width="200">
 
