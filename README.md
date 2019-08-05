@@ -6,6 +6,8 @@ Practical application of image processing and recognition techniques with matlab
 * [Abstract](#abstract)
 * [Image capture](#image-capture)
 * [Image pre-processing](#image-pre-processing)
+* [Hough transform](#hough-transform)
+
 
 ## Abstract
 This project presents and offline method for detecting lane lines using Hough transform.
@@ -87,3 +89,5 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 
 ##### Canny edge detection
 <img src="/Video_Demos/img/canny_edge2.JPG" width="400">
+
+## Hough Transform
