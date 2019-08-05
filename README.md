@@ -23,5 +23,6 @@ Since the camera will be fixed in the same spot inside the vehicle a ROI will be
 
 ##### Raw image
 <img src="/Video_Demos/img/raw_image.JPG" width="300">
+
 ##### ROI selection
 <img src="/Video_Demos/img/roi_selection.JPG" width="300">
