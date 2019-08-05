@@ -2,7 +2,7 @@
 Practical application of image processing and recognition techniques with matlab.
 
 ## Table of contents
-* [1-Abstract] (#bstract)
+* [1-Abstract] (#abstract)
 * [2-Image capture](#image-capture)
 
 ## Abstract
