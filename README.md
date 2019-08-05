@@ -57,5 +57,5 @@ and recursive Bayesian segmentation"__.
 
 This technique is based on the assumption that, in a row of image, the pixels which belong to lane markings tend to have "high intensity value surrounded by darker regions". Thus, the detector independently filters each row of image by its pixels intensity values.
 
-<img src="/Video_Demos/img/nieto_formula.JPG" width="500">
+<img src="/Video_Demos/img/nieto_formula.JPG" width="200">
 The filter highly responses to the pixels, which have higher intensity values than their left and right neighbors in the same row at distance Tau. The last term of equation is removed from filtered value yi to help the filter less prone to errors, especially in the case that the difference between intensity values of left and right neighbors is too high.
