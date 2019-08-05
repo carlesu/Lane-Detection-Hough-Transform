@@ -2,10 +2,10 @@
 Practical application of image processing and recognition techniques with matlab.
 
 ## Table of contents
-* [Abstract] (#abstract)
+* [Introduction] (#introduction)
 * [Image capture](#image-capture)
 
-## Abstract
+## Introduction
 This project presents and offline method for detecting lane lines using Hough transform.
 The images are captured with my own smartphone (Xiaomi Mi A2) carried inside the vehicle fixes with a sucktion cup device. The smartphone frame rate is 30 FPS.
 
