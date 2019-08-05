@@ -91,5 +91,9 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 <img src="/Video_Demos/img/canny_edge2.JPG" width="400">
 
 ## Hough Transform
-<img src="/Video_Demos/img/hough_bons.JPG" width="400">
+<img src="/Video_Demos/img/hough_bons.jpg" width="400">
 <img src="/Video_Demos/img/hough_tunning.JPG" width="600">
+<img src="/Video_Demos/img/hough_good.JPG" width="400">
+<img src="/Video_Demos/img/hough_left_slopes.JPG" width="400">
+<img src="/Video_Demos/img/hough_right_slopes.JPG" width="400">
+
