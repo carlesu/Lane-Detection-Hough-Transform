@@ -37,7 +37,9 @@ Gaussian filtering averages the pixels arround each pixel of the image, the pixe
 Because a Gaussian distribution is used the kernel size will be **6*Std** in order to fit the Gaussian curve to our kernel.
 <img src="/Video_Demos/img/std_dev.jpg" width="200">
 
-The noise reduction using an averaging kernel comes with image information loss, in order to benefit from smoothening without losing too much information the standard deviation will be Std = 1. The next figure shows different results for the edge detector with different Std values. On the left size the Std is too low so there is too much noise even inside the lane line. On the right side the Std is too high which makes the two lane lines fuse at some point. 
+The noise reduction using an averaging kernel comes with image information loss, in order to benefit from smoothening without losing too much information the standard deviation will be Std = 1.
+
+Image below shows different results for the edge detector with different Std values. On the left size the Std is too low so there is too much noise even inside the lane line. On the right side the Std is too high which makes the two lane lines fuse at some point. 
 
 <img src="/Video_Demos/img/gauss_comparison.JPG" width="500">
 
