@@ -2,9 +2,8 @@
 Practical application of image processing and recognition techniques with matlab.
 
 ## Table of contents
-* [1-Abstract] (#abstract)
+* [1-Abstract] (#bstract)
 * [2-Image capture](#image-capture)
-* [Setup](#setup)
 
 ## Abstract
 This project presents and offline method for detecting lane lines using Hough transform.
