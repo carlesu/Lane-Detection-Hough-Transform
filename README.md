@@ -48,5 +48,14 @@ After smoothening the image an RGB to Gray process is made using MATLAB function
 
 The equation used for the grayscaling is (𝑦=0.299𝑅+0.5870𝐺+0.1140𝐵).
 
-##### Gray Images
+##### Gray Image
 <img src="/Video_Demos/img/gray_roi.JPG" width="400">
+
+### 4. Horizontal filtering (Marcos Nieto)
+In my research phasse for this project I found several methods and ways of finding lane marks, one step that lead my algorithm to good results was a pre-processing step presented by Marcos Nieto in his paper __"Road environment modeling using robust perspective analysis
+and recursive Bayesian segmentation"__.
+
+This technique is based on the assumption that, in a row of image, the pixels which belong to lane markings tend to have "high intensity value surrounded by darker regions". Thus, the detector independently filters each row of image by its pixels intensity values.
+
+<img src="/Video_Demos/img/nieto_formula.JPG" width="500">
+The filter highly responses to the pixels, which have higher intensity values than their left and right neighbors in the same row at distance Tau. The last term of equation is removed from filtered value yi to help the filter less prone to errors, especially in the case that the difference between intensity values of left and right neighbors is too high.
