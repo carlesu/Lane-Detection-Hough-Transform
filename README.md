@@ -28,7 +28,7 @@ Since the camera will be fixed in the same spot inside the vehicle a ROI will be
 <img src="/Video_Demos/img/roi_selection.JPG" width="400">
 
 ### 2. Image  smoothing (Gaussian Filter)
-A Gaussian filter is done to the image in order to reduce noise and smooth the edges.
+A Gaussian filter is done to the ROI image in order to reduce noise and smooth the edges.
 
 Gaussian filtering averages the pixels arround each pixel of the image, the pixels averaged are determined by the kernel (matrix) size.
 
@@ -43,3 +43,9 @@ Image below shows different results for the edge detector with different Std val
 
 <img src="/Video_Demos/img/gauss_comparison.JPG" width="500">
 
+### 3. Grayscale
+After smoothening the image an RGB to Gray process is made using MATLAB function rgb2gray (𝑦=0.299𝑅+0.5870𝐺+0.1140𝐵
+). From now on each operation made to the image will be 1024x1024x1 instead of 1024x1024x3 making the algorithm less computational demanding and also reaching good results.
+
+##### Gray Images
+<img src="/Video_Demos/img/gray_roi.JPG" width="500">
