@@ -86,4 +86,4 @@ After application of non-maximum suppression, remaining edge pixels provide a mo
 So far, the strong edge pixels should certainly be involved in the final edge image, as they are extracted from the true edges in the image. However, there will be some debate on the weak edge pixels, as these pixels can either be extracted from the true edge, or the noise/color variations. To achieve an accurate result, the weak edges caused by the latter reasons should be removed.
 
 ##### Canny edge detection
-<img src="/Video_Demos/img/canny_edge.JPG" width="400">
+<img src="/Video_Demos/img/canny_edge2.JPG" width="400">
