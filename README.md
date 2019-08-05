@@ -21,7 +21,7 @@ Images were captured with my smartphone Xiaomi Mi A2 carried inside the vehichle
 ### 1. Region of interest (ROI)
 Since the camera will be fixed in the same spot inside the vehicle a ROI will be extracted from the raw image on each frame. In this project ROI coordinates are calibrated once and used for the whole video, a good way of finding ROI coordinates could be finding vanishing point coordinates and calculating ROI coordinates after that.
 
-#####Raw image
+####Raw image
 <img src="/Video_Demos/img/raw_image.JPG" width="300">
-#####ROI selection
+####ROI selection
 <img src="/Video_Demos/img/roi_selection.JPG" width="300">
