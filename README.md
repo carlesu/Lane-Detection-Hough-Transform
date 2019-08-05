@@ -96,4 +96,11 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 <img src="/Video_Demos/img/hough_good.JPG" width="400">
 <img src="/Video_Demos/img/hough_left_slopes.JPG" width="400">
 <img src="/Video_Demos/img/hough_right_slopes.JPG" width="400">
-
+<img src="/Video_Demos/img/hough_start_end.JPG" width="400">
+<img src="/Video_Demos/img/hough_good_lines1.JPG" width="400">
+<img src="/Video_Demos/img/hough_good_lines2.JPG" width="400">
+<img src="/Video_Demos/img/hough_voted1.JPG" width="400">
+<img src="/Video_Demos/img/hough_average.JPG" width="400">
+<img src="/Video_Demos/img/tracking1.JPG" width="400">
+<img src="/Video_Demos/img/good_bad1.JPG" width="600">
+<img src="/Video_Demos/img/good_bad2.JPG" width="600">
