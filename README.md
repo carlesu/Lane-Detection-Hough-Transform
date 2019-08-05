@@ -64,7 +64,7 @@ The filter highly responds to the pixels, which have higher intensity values tha
 <img src="/Video_Demos/img/nieto_feature.JPG" width="400">
 
 ### 5. Binarization
-After many layers of Pre-processing stage, thresholding is the final one we use to decide which pixels we want to keep while discard the others based on their intensity values. In the image output from step 4., the pixels that belong to lane-marking evidence tend to have higher intensity values. Besides, the disturbances may leave in the image many lower intensity pixels represented as thin and weak edges. Binary thresholding can help significantly in removing these noises and enhancing the "good" pixels.
+Thresholding is used to decide which pixels we want to keep while discard the others based on their intensity values. In the image output from step 4., the pixels that belong to lane-marking evidence tend to have higher intensity values. Besides, the disturbances may leave in the image many lower intensity pixels represented as thin and weak edges. Binary thresholding can help significantly in removing these noises and enhancing the "good" pixels.
 
 The basic idea behind binary thresholding is that all pixels that have intensity values higher than a certain threshold will be set to maximum value maxVal, while the others with intensity values below the threshold are set to zero. In this case Otsu's method will be used where the threshold is determined by minimizing intra-class intensity variance, or equivalently, by maximizing inter-class variance. At the end in order to reduce noise, conected components less than 90 px are suppressed.
 
@@ -73,3 +73,12 @@ The basic idea behind binary thresholding is that all pixels that have intensity
 
 ##### Conected components suppression
 <img src="/Video_Demos/img/conected_comp_90.JPG" width="400">
+
+### 6. Edge detector
+After many layers of pre-processing stage, edge detection is the final one used to find strong edges which will help the Hough transform stage to find the lane lines.
+
+A Canny edge detector is used in this project, this method is very computational demanding because runs several steps which also make it very effective. Since our image is very well conditioned a Sobel edge detector could be used in vertical an horizontal directions in order to increase computational speed.
+
+0.07-0.1
+28.580053 seconds.
+Canny edge detector uses four filters to detect horizontal, vertical and diagonal edges, which find the intensity gradients of the image.
