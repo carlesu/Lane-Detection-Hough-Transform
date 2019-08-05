@@ -62,3 +62,14 @@ The filter highly responds to the pixels, which have higher intensity values tha
 
 ##### Grayscaled ROI filtered
 <img src="/Video_Demos/img/nieto_feature.JPG" width="400">
+
+### 5. Binarization
+After many layers of Pre-processing stage, thresholding is the final one we use to decide which pixels we want to keep while discard the others based on their intensity values. In the image output from step 4., the pixels that belong to lane-marking evidence tend to have higher intensity values. Besides, the disturbances may leave in the image many lower intensity pixels represented as thin and weak edges. Binary thresholding can help significantly in removing these noises and enhancing the "good" pixels.
+
+The basic idea behind binary thresholding is that all pixels that have intensity values higher than a certain threshold will be set to maximum value maxVal, while the others with intensity values below the threshold are set to zero. In this case Otsu's method will be used where the threshold is determined by minimizing intra-class intensity variance, or equivalently, by maximizing inter-class variance. At the end in order to reduce noise conected components less than 90 px are suppressed.
+
+##### Binarized image
+<img src="/Video_Demos/img/otsu_binary.JPG" width="400">
+
+##### Conected components suppression
+<img src="/Video_Demos/img/conected_comp_90.JPG" width="400">
