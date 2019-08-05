@@ -34,6 +34,6 @@ Gaussian filtering averages the pixels arround each pixel of the image, the pixe
 
 <img src="/Video_Demos/img/gauss_filt.jpg" width="200">
 
-Because we are using a Gaussian distribution the kernel size will be 6*Std in order to fit the Gaussian curve to our kernel.
+Because we are using a Gaussian distribution the kernel size will be **6*Std** in order to fit the Gaussian curve to our kernel.
 <img src="/Video_Demos/img/std_dev.jpg" width="200">
 
