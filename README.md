@@ -13,7 +13,7 @@ The images are captured with my own smartphone (Xiaomi Mi A2) carried inside the
 
 The first step is image conditioning in order to eliminate non interest elements, followed by an edge detector, the edge detector binary image output will be the input to the Hough transform in order to detect lines. Two best lines from each side will be chosen and averaged. Finally the averaged two lines will be tracked in a 10 frames window.
 
-<img src="/Video_Demos/img/pipeline.JPG" width="100">
+<img src="/Video_Demos/img/pipeline.JPG" width="300">
 
 
 ## Image capture
