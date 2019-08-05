@@ -31,6 +31,7 @@ Since the camera will be fixed in the same spot inside the vehicle a ROI will be
 A Gaussian filter is done to the image in order to reduce noise and smooth the edges.
 
 Gaussian filtering averages the pixels arround each pixel of the image, the pixels averaged are determined by the kernel (matrix) size.
+
 <img src="/Video_Demos/img/gauss_filt.jpg" width="200">
 
 Because we are using a Gaussian distribution the kernel size will be 6*Std in order to fit the Gaussian curve to our kernel.
