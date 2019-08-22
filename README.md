@@ -95,6 +95,7 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 <img src="/Video_Demos/img/hough_bons.jpg" width="500">
 <img src="/Video_Demos/img/hough_tunning.JPG" width="700">
 <img src="/Video_Demos/img/hough_good.JPG" width="500">
+
 ## Classification good/bad lines
 <img src="/Video_Demos/img/hough_left_slopes.JPG" width="500">
 <img src="/Video_Demos/img/hough_right_slopes.JPG" width="500">
@@ -102,10 +103,13 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 <img src="/Video_Demos/img/hough_good_lines1.JPG" width="500">
 <img src="/Video_Demos/img/hough_good_lines2.JPG" width="500">
 <img src="/Video_Demos/img/hough_voted1.JPG" width="500">
+
 ### Two more voted averaged
 <img src="/Video_Demos/img/hough_average.JPG" width="500">
+
 ### Tracking vs average
 <img src="/Video_Demos/img/tracking1.JPG" width="500">
+
 ## Results
 <img src="/Video_Demos/img/good_bad1.JPG" width="700">
 <img src="/Video_Demos/img/good_bad2.JPG" width="700">
