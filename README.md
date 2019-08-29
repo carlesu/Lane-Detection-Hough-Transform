@@ -90,7 +90,14 @@ So far, the strong edge pixels should certainly be involved in the final edge im
 ##### Canny edge detection
 <img src="/Video_Demos/img/canny_edge2.JPG" width="500">
 
+# BUILDING....
+
 ## Hough Transform
+In this study Hough transform will be used in order to find the lines that best represent the lane edges. This can be a complicated task because some parameters need to be tuned in order to achieve best results.
+- Bin size named 'RhoResolution', higher values for this parameters lead 
+
+el tamaño del bin 'RhoResolution' determinará la facilidad de que los puntos sean propensos a ser interpretados como de la misma línea, 'Theta' definirá el rango de valores de θ que utilizará el algoritmo para detectar las líneas así que disminuyendo su resolución y su rango podemos disminuir el coste computacional del algoritmo y evitar ciertos ángulos que no serán de interés, 'Threshold' permite controlar cuantos votos son necesarios para considerar una línea.
+
 ### Bin Size
 <img src="/Video_Demos/img/hough_bons.jpg" width="500">
 <img src="/Video_Demos/img/hough_tunning.JPG" width="700">
