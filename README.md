@@ -81,7 +81,7 @@ After many layers of pre-processing stage, edge detection is the final one used 
 
 A Canny edge detector is used in this project, this method is very computational demanding because runs several steps which also make it very effective. Since our image is very well conditioned a Sobel edge detector could be used in vertical and horizontal directions in order to increase computational speed (Testing led on a 20% decrease time per frame using Sobel).
 
-Canny edge detector makes a Gaussian filter, then applies four filters to detect horizontal, vertical and diagonal edges, which find the intensity gradients of the image. Once the intensity gradients are found performs a non-maximum suppression to get rid of spurious response to edge detection.
+Canny edge detector makes a Gaussian filter, then applies four filters to detect horizontal, vertical and diagonal edges, which finds the intensity gradients of the image. Once the intensity gradients are found performs a non-maximum suppression to get rid of spurious response to edge detection.
 
 After application of non-maximum suppression, remaining edge pixels provide a more accurate representation of real edges in an image. However, some edge pixels remain that are caused by noise and color variation. In order to account for these spurious responses, it is essential to filter out edge pixels with a weak gradient value and preserve edge pixels with a high gradient value. This is accomplished by selecting high and low threshold values.
 
