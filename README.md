@@ -17,7 +17,7 @@ The first step is image conditioning in order to eliminate non interest elements
 <img src="/Video_Demos/img/pipeline.JPG" width="300">
 
 ## Image capture
-Images were captured with my smartphone Xiaomi Mi A2 carried inside the vehichle and fixed to the car front glass using a sucktion cup device as shown in the picture.
+Images were captured with my smartphone Xiaomi Mi A2 carried inside the vehichle and fixed to the car front glass using a sucktion cup device as shown in the picture (pending...).
 
 ## Image pre-processing
 ### 1. Region of interest (ROI)
@@ -46,7 +46,7 @@ Image below shows different results for the edge detector with different Std val
 <img src="/Video_Demos/img/gauss_comparison.JPG" width="700">
 
 ### 3. Grayscale
-After smoothening the image an RGB to Gray process is made using MATLAB function rgb2gray. From now on each operation made to the image will be 1024x1024x1 instead of 1024x1024x3 making the algorithm less computational demanding and also reaching good results.
+After smoothening the image an RGB to Gray process is made using MATLAB function rgb2gray. From now on each operation made to the image will be 1024x1024x1 instead of 1024x1024x3 making the algorithm less computational demanding and still reaching good results.
 
 The equation used for the grayscaling is (𝑦=0.299𝑅+0.5870𝐺+0.1140𝐵).
 
@@ -79,7 +79,7 @@ The basic idea behind binary thresholding is that all pixels that have intensity
 ### 6. Edge detector
 After many layers of pre-processing stage, edge detection is the final one used to find strong edges which will help the Hough transform stage to find the lane lines.
 
-A Canny edge detector is used in this project, this method is very computational demanding because runs several steps which also make it very effective. Since our image is very well conditioned a Sobel edge detector could be used in vertical an horizontal directions in order to increase computational speed (Testing led on a 20% decrese time per frame using Sobel).
+A Canny edge detector is used in this project, this method is very computational demanding because runs several steps which also make it very effective. Since our image is very well conditioned a Sobel edge detector could be used in vertical and horizontal directions in order to increase computational speed (Testing led on a 20% decrease time per frame using Sobel).
 
 Canny edge detector makes a Gaussian filter, then applies four filters to detect horizontal, vertical and diagonal edges, which find the intensity gradients of the image. Once the intensity gradients are found performs a non-maximum suppression to get rid of spurious response to edge detection.
 
